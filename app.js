@@ -1,45 +1,45 @@
 var app = new Vue({
   el: '#app',
   data: {
-    firstName: "Jules",
-    lastName: "Bonnard",
-    description: "Je suis datajournaliste à l'AFP et j'enseigne le code, le traitement, et la visualisation de données à Sciences Po.",
-    photo: "https://pbs.twimg.com/profile_images/899285838516936704/nfeLD7he_400x400.jpg",
-    twitter: "julesbonnard",
-    github: "julesbonnard",
-    mail: "julesbonnard@gmail.com",
+    firstName: "Olivia",
+    lastName: "Konotey-Ahulu",
+    description: "Freelance journalist and student in Journalism & Human Rights at Sciences Po Paris",
+    photo: "14480649_10157495710935585_9176104511162469198_o.jpg",
+    twitter: "@OliviaGKA",
+
+    mail: "oliviaka@btinternet.com",
     experiences: [{
-      dateBegin: "2014",
+      dateBegin: "May 2018",
+      dateEnd: "August 2018",
+      name: "World Food Programme",
+      title: "Intern",
+      description: "Capacity building for Lesotho's office"
+    }, {
+      dateBegin: "September 2017",
+      dateEnd: "May 2019",
+      name: "Democracy 2.1",
+      title: "Researcher",
+      description: "Researched participatory democracy"
+    }, {
+      dateBegin: "January 2017",
       dateEnd: "Today",
-      name: "Agence France Presse",
-      title: "Datajournalist",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    }, {
-      dateBegin: "Été 2013",
-      dateEnd: false,
-      name: "Le Monde.fr",
-      title: "Data-journalist",
-      description: false
-    }, {
-      dateBegin: "2012",
-      dateEnd: "2013",
-      name: "Le Dauphiné Libéré",
-      title: "Stagiaire et correspondant de presse",
-      description: false
+      name: "Lacuna Magazine",
+      title: "Reporter",
+      description: "Pitch and write feature stories"
     }],
     formations: [{
-      dateBegin: "2012",
-      dateEnd: "2014",
-      name: "Master Journalisme",
-      university: "Sciences Po Grenoble"
+      dateBegin: "2017",
+      dateEnd: "2019",
+      name: "Dual Master in Journalism & Human Rights",
+      university: "Sciences Po Paris"
     }, {
-      dateBegin: "2009",
-      dateEnd: "2012",
-      name: "Bachelor Sciences Politiques",
-      university: "Sciences Po Grenoble"
+      dateBegin: "2013",
+      dateEnd: "2017",
+      name: "BA in English Literature",
+      university: "Warwick University"
     }],
-    languages: ["Anglais"],
-    skills: ["Node", "VueJS", "D3js", "SCSS", "HTML"]
+    languages: ["French"],
+    skills: ["Adobe Audition", "Adobe Premiere Pro", "Coding"]
   },
   computed: {
     fullName() {
